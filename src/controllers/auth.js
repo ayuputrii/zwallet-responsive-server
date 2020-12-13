@@ -84,6 +84,7 @@ module.exports = {
                 response(res, 403, { message: errors })
             }
         } catch (error) {
+            console.error(error)
             response(res, 500, { message: 'Register Failed'})
         }
     },
