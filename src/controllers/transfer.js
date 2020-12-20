@@ -1,5 +1,7 @@
 const { response } = require('../helpers');
+const { getUserPhone } = require('../models/user');
 const transferModel = require('../models/transfer');
+const admin = require('firebase-admin');
 
 module.exports = {
 	getHistoryUser: async function(req, res) {
@@ -51,6 +53,19 @@ module.exports = {
 			const { id, pin } = req.token;
 			if (pinBody == pin) {
 				const { phone_receiver } = req.body;
+				const receiver = await getUserPhone(phone_receiver);
+				if (receiver[0].device_token) {
+					await admin.messaging().sendToDevice(receiver[0].device_token, {
+						notification: {
+							title: 'Transfer',
+							body: 'Kamu menerima transfer sebesar ' + req.body.amount
+						},
+						data: {
+							balance: req.body.amount
+						}
+					});
+				}
+
 				const setData = req.body;
 				delete setData.pin;
 				delete setData.phone_receiver;
@@ -66,6 +81,7 @@ module.exports = {
 				});
 			}
 		} catch (error) {
+			console.log(error);
 			res.status(500).send({
 				message: error.message
 			});

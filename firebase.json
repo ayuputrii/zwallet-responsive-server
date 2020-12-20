@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "zwalletfront",
+  "private_key_id": "4bc3f483c5d0c4bd7459e58571985c9f4e3f9264",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCtgTjplFjaWawD\nBG4YSOP8wRQa7967F8kDh5nDOC/vFV6BT4s08ktUnRyGutv9KLOlXiwBQ5lHibjX\ne10jS5W1CiSTpg41cShduGDUcrxpurY+B1jfA1oF4ugNt9ZV7FPaL3w8HACQzvBw\ne1AKwwX0JAA+5EXZWFKjio2xKL8SW4WRZiAw/aSJ+8LcVhlXYRmI+HT2pGzKbHhL\nDUvEMATT6dKJrhKKnnXmRAz9YYCKY+Zb0jeTH5Rh45DfVqOhmu3JHdRIupk4KaTs\ngwf8Nc6DBpzt9vcAljOUqCr5nYcKT77WUPkpw53ZXpw3tR3+UzNLqtfLy3tzUZZ9\n7hPIQ0jbAgMBAAECggEAArDs6Y6P/D8E0H0qmfzTcHGsNqi+yycYypG5XFJMSAiM\nUTQjJByX94WCUkKms9wEQU3fH9vlDjuAHvN+Y9RBy6+PFq0uLj0Fk8KO2ey3qGop\ndnfVtIvQQyQcVk4iKG4EdO9knWgPyC81goEfIjOZLYq7aD5RKQhaK8gz32oS4J19\nOomcph4exR8lj+IYj5qwTEHh+UeapUsU0dsxSy2E8LeZD5ZlGAzlTdz50zIZTGWo\nUD+60qqlJascwDZb4f68JSr2UNriGMa2ZJbR2yuJV5xPBg83j8rq5TXB7MRgOS9U\naluqP73UZo3lwLH20HSKkenrd1VZFky0Dlf0e1qr8QKBgQDlnHaNO2OkTnPJFzkr\nvSUWO7XDjr50N4V5rAENeq+POsgTD2KVbYInlvCE8w6rqtzDU8NTLgbHYxlYTF1r\nl5wpXcG2LfrpCszgj8+81Kj/pEOXOkVSSnWmh+Etq78denmrCu26bg66Nz2H3Kk9\nNByOE364EXN0mI2DKe/L9z8aywKBgQDBcgRN5WpuOkr7prnXY8XsJUw0czYzyHzw\niKFsaEYgqsBXCpzqLRr1F3jiCBN+fdLDWqb8+dGzmx68NQICbtRLz3DmHXgM8Rf4\nizzwvq8OTEa0AvbewljKd8XSfAGsSQ32J8tbFtrBiaAOyq9SpNnVlbw1kxpYSgIQ\nzD8MbeB4MQKBgQCH1edgqBjLlEn1VhLRaGVvYMWoOmM7t7j0ASjiQ4lmz5ybggeN\nZSqRpz8FOBGex0cxGvW72MfT3zGYRh0iUJ/m7PtzfoIoqeYIl6uLB7gu/IusBKIM\nC9bMPSie7zLyCom+AYogN4no6lMxc/5/Ibwe5TObS1+lQ7a8OOwPG2cuvwKBgHAi\njcgx4r4+4FR8U2I+He9Dt6b32kWuRG6SZTCYSX6KPLC4IDnHJ8dHcfVkxRggC9re\nY8plbl/03Z4wBBgw8rN3bnSWRI8L+t9Cp3LOtl9Na/bReRWsBxhm0a+v3rBmMMeu\nTb1hxDFIfBXW/Eal9PhQsidEPJNNY2ElZK7pyqMhAoGAf7M4Si/gL5FTN0WMydwD\nNhT1uH+P0yaXg9tWhmIWhgUyVhsZxyeROSdDfgVXpH91VKvK7jDGN3Aoo9LKTRbM\n2x8Ik9Xe7Svo18XmXH5e6Gw+KS0Co+Myll2hp0PrWDqaGPHV0z3bi5PrnmzA8tz3\nWm5zwjnKYogyrwfn1PukcTA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-lpaoe@zwalletfront.iam.gserviceaccount.com",
+  "client_id": "108654726025129674668",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-lpaoe%40zwalletfront.iam.gserviceaccount.com"
+}
