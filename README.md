@@ -20,13 +20,13 @@
 
 ## How To Install
 
-- git clone https://github.com/dherliansyah/zwalletback
-- cd zwalletback
+- git clone https://github.com/ayuputrii/zwallet-responsive-server/tree/diki
+- cd zwallet-responsive-server
 - yarn
 - nodemon
 
 
 ## Docs API POSTMAN
 
-https://documenter.getpostman.com/view/12574221/TVmP9bi2
+https://documenter.getpostman.com/view/12574221/TVsuDTEz
 
